@@ -3,8 +3,8 @@
 <ul>
   <% @articles.each do |article| %>
     <li>
-      <%= article.title %><br>
-      "<%= article.body %>"
+      <%#= article.title %>
+      <%= link_to article.title, "#{articles_path}/#{article.id}" %>
     </li>
   <% end %>
 </ul>
