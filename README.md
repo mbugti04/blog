@@ -1,2 +1,2 @@
 # blog
-Blog website created using Rails
+Simple blog website created using Rails
